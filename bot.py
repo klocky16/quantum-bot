@@ -1,6 +1,3 @@
-#NTU5ODA3NjYyMjYzMzY5NzQ4.D3q_7Q.Lx6xYLKN1N-TJTeD2LaoTN1kEM8
-
-
 import discord
 from discord.ext import commands
 import random
@@ -31,4 +28,4 @@ async def cookie():
     await bot.say(':cookie:')
 
 
-bot.run('NTU5ODA3NjYyMjYzMzY5NzQ4.D3q_7Q.Lx6xYLKN1N-TJTeD2LaoTN1kEM8')
+bot.run(str(os.environ.get('BOT_TOKEN')))
