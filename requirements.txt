@@ -1,4 +1,3 @@
 pip
 asyncio
 discord
-os
